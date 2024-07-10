@@ -1,0 +1,44 @@
+body{
+    background: #bdbdbd;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+}
+div.post{
+    background: white;
+    margin-top: 10px;
+    border-radius: 1%;
+}
+div.post img{
+    width: 100%;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
